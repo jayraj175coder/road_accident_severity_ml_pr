@@ -1,0 +1,74 @@
+[
+  {
+    "algorithm": "Logistic Regression",
+    "accuracy": 70.0,
+    "precision": 70.0,
+    "recall": 70.0,
+    "f1_score": 70.0,
+    "train_time_ms": 51,
+    "is_best": false
+  },
+  {
+    "algorithm": "Decision Tree",
+    "accuracy": 72.5,
+    "precision": 73.87,
+    "recall": 72.5,
+    "f1_score": 72.99,
+    "train_time_ms": 15,
+    "is_best": false
+  },
+  {
+    "algorithm": "Random Forest",
+    "accuracy": 82.5,
+    "precision": 83.32,
+    "recall": 82.5,
+    "f1_score": 80.92,
+    "train_time_ms": 263,
+    "is_best": false
+  },
+  {
+    "algorithm": "Bagging",
+    "accuracy": 75.0,
+    "precision": 74.35,
+    "recall": 75.0,
+    "f1_score": 73.34,
+    "train_time_ms": 200,
+    "is_best": false
+  },
+  {
+    "algorithm": "AdaBoost",
+    "accuracy": 80.0,
+    "precision": 82.16,
+    "recall": 80.0,
+    "f1_score": 80.18,
+    "train_time_ms": 358,
+    "is_best": false
+  },
+  {
+    "algorithm": "Gradient Boosting",
+    "accuracy": 80.0,
+    "precision": 81.1,
+    "recall": 80.0,
+    "f1_score": 79.07,
+    "train_time_ms": 598,
+    "is_best": false
+  },
+  {
+    "algorithm": "SVM",
+    "accuracy": 82.5,
+    "precision": 82.19,
+    "recall": 82.5,
+    "f1_score": 82.28,
+    "train_time_ms": 23,
+    "is_best": false
+  },
+  {
+    "algorithm": "Extra Trees (XGBoost Fallback)",
+    "accuracy": 92.5,
+    "precision": 92.4,
+    "recall": 92.5,
+    "f1_score": 92.37,
+    "train_time_ms": 214,
+    "is_best": true
+  }
+]

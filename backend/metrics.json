@@ -1,0 +1,85 @@
+{
+  "algorithm": "Extra Trees (XGBoost Fallback)",
+  "accuracy": 92.5,
+  "precision": 92.4,
+  "recall": 92.5,
+  "f1": 92.37,
+  "f1_score": 92.37,
+  "training_samples": 160,
+  "test_samples": 40,
+  "feature_count": 12,
+  "target_classes": [
+    "Fatal",
+    "Minor",
+    "Serious"
+  ],
+  "dataset_source": "dataset/india_road_accidents.csv",
+  "trained_at": "2026-08-02 13:55:59",
+  "confusion_matrix": [
+    [
+      8,
+      0,
+      1
+    ],
+    [
+      0,
+      19,
+      0
+    ],
+    [
+      1,
+      1,
+      10
+    ]
+  ],
+  "feature_importance": [
+    {
+      "feature": "Casualties",
+      "importance": 0.21261304374767176
+    },
+    {
+      "feature": "Speed_Limit",
+      "importance": 0.20233633394520467
+    },
+    {
+      "feature": "Road_Type",
+      "importance": 0.13306021833289083
+    },
+    {
+      "feature": "Alcohol",
+      "importance": 0.09131598244163724
+    },
+    {
+      "feature": "Light_Condition",
+      "importance": 0.061426584725293346
+    },
+    {
+      "feature": "Weather",
+      "importance": 0.04916279875528306
+    },
+    {
+      "feature": "Month",
+      "importance": 0.048272924279320915
+    },
+    {
+      "feature": "Vehicle_Type",
+      "importance": 0.04669687705488568
+    },
+    {
+      "feature": "State",
+      "importance": 0.046070161598567576
+    },
+    {
+      "feature": "Driver_Age",
+      "importance": 0.043569620627417274
+    },
+    {
+      "feature": "Road_Surface",
+      "importance": 0.04286369006846993
+    },
+    {
+      "feature": "Driver_Gender",
+      "importance": 0.022611764423357657
+    }
+  ]
+}
