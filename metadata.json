@@ -1,0 +1,6 @@
+{
+  "name": "Road Accident Severity Prediction",
+  "description": "AI-powered Machine Learning system for predicting road accident severity in India with model comparison, PCA/LDA/DBSCAN analytics, SHAP explanations, hotspot mapping, and safety recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
