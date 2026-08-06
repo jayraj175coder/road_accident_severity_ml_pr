@@ -131,6 +131,59 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           </div>
         </div>
       </section>
+      {/* Real World Applications */}
+<section className="space-y-6">
+  <div className="text-center max-w-2xl mx-auto">
+    <span className="text-[10px] font-extrabold uppercase tracking-widest text-orange-400">
+      REAL-WORLD APPLICATIONS
+    </span>
+
+    <h2 className="text-2xl sm:text-3xl font-extrabold text-white mt-2">
+      Where Can This AI System Be Used?
+    </h2>
+
+    <p className="text-sm text-slate-400 mt-2">
+      Our machine learning model supports faster decisions for road safety,
+      emergency response, and traffic management.
+    </p>
+  </div>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+
+    <div className="p-5 rounded-3xl bg-white/5 border border-white/10">
+      <ShieldAlert className="w-8 h-8 text-red-400 mb-3" />
+      <h3 className="font-bold text-white">Emergency Response</h3>
+      <p className="text-xs text-slate-400 mt-2">
+        Predict accident severity to help ambulance and hospitals respond faster.
+      </p>
+    </div>
+
+    <div className="p-5 rounded-3xl bg-white/5 border border-white/10">
+      <MapPin className="w-8 h-8 text-blue-400 mb-3" />
+      <h3 className="font-bold text-white">Accident Hotspots</h3>
+      <p className="text-xs text-slate-400 mt-2">
+        Identify high-risk locations for better road planning and safety measures.
+      </p>
+    </div>
+
+    <div className="p-5 rounded-3xl bg-white/5 border border-white/10">
+      <TrendingUp className="w-8 h-8 text-green-400 mb-3" />
+      <h3 className="font-bold text-white">Driver Safety</h3>
+      <p className="text-xs text-slate-400 mt-2">
+        Alert drivers about dangerous conditions using AI-powered risk prediction.
+      </p>
+    </div>
+
+    <div className="p-5 rounded-3xl bg-white/5 border border-white/10">
+      <CheckCircle2 className="w-8 h-8 text-orange-400 mb-3" />
+      <h3 className="font-bold text-white">Insurance Analysis</h3>
+      <p className="text-xs text-slate-400 mt-2">
+        Assist insurers in faster claim assessment and accident risk analysis.
+      </p>
+    </div>
+
+  </div>
+</section>
 
       {/* Facts & Stats */}
       <section className="p-8 sm:p-10 rounded-3xl bg-white/5 border border-white/10 backdrop-blur-xl space-y-6">
